@@ -1,0 +1,54 @@
+.dialogue__navigation {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px 0 0;
+}
+
+.dialogue__contact-information {
+  display: flex;
+  align-items: center;
+}
+
+.dialogue__contact-information img {
+  width: 34px;
+  height: 34px;
+  margin: 0 12px 0 0;
+}
+
+.dialogue__contact-information p {
+  font-family: "PlusJakartaSans-SemiBold";
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.dialogue__action {
+  display: flex;
+}
+
+.dialogue__action img {
+  width: 20px;
+  height: 20px;
+  margin: 0 16px 0 0;
+}
+
+.dialogue__dropdown {
+  position: relative;
+}
+
+#list {
+  position: absolute;
+  width: 168px;
+  right: 20px;
+  box-shadow: 0px 2px 56px 0px $dark-gray;
+  z-index: 100;
+  background-color: $white;
+  border-radius: 8px;
+  padding: 16px 16px 0 16px;
+  font-family: "PlusJakartaSans-Regular";
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#list li {
+  margin: 0 0 16px 0;
+}

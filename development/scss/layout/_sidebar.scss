@@ -1,0 +1,89 @@
+.chat__sidebar {
+  width: 364px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid $silver-sand;
+}
+
+.chat__sidebar-container {
+  margin: 16px 0 16px 20px;
+}
+
+.chat__sidebar span {
+  position: absolute;
+  margin: 12px 0 0 16px;
+}
+
+.chat__sidebar span img {
+  width: 20px;
+  height: 20px;
+}
+
+.chat__contact {
+  padding: 20px;
+  display: flex;
+  border-bottom: 1px solid $silver-sand;
+}
+
+.chat__contact-active {
+  background-color: $light-orange;
+  border-right: 2px solid $orange;
+}
+
+.chat__contact img {
+  width: 48px;
+  height: 48px;
+  margin: 0 16px 0 0;
+}
+
+.chat__contact div {
+  width: 100%;
+}
+
+.chat__block-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.chat__information {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chat__contact-name {
+  font-family: "PlusJakartaSans-SemiBold";
+  color: $black;
+  font-size: 14px;
+  line-height: 20px;
+  align-items: center;
+}
+
+.chat__message-time {
+  font-family: "PlusJakartaSans-Medium";
+  color: $battleship-grey;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.chat__preview-message {
+  font-family: "PlusJakartaSans-Regular";
+  color: $black;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.chat__selected-contacts {
+  width: 100%;
+  border-top: 1px solid $silver-sand;
+}
+
+.chat__selected-contacts div {
+  margin: 20px 24px;
+}
+
+.chat__selected-contacts div img {
+  width: 32px;
+  height: 32px;
+}

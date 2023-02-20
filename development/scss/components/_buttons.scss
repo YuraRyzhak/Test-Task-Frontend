@@ -1,0 +1,41 @@
+button {
+  cursor: pointer;
+  border: none;
+  background-color: inherit;
+}
+
+.danger-button {
+  color: $red;
+}
+
+.chat__selected-contacts button{
+width: 32px;
+height: 32px;
+margin: 0 12px 0 0;
+}
+
+.button__new-message {
+  display: flex;
+  background-color: $orange;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  color: $white;
+}
+
+.button__new-message img {
+  width: 20px;
+  height: 20px;
+  margin: 0 8px 0 0;
+}
+
+.button__new-message p {
+  font-family: "PlusJakartaSans-SemiBold";
+  color: $white;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#file-button {
+  margin: 0 20px 0 0;
+}

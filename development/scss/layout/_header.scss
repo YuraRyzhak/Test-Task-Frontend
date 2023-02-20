@@ -1,0 +1,27 @@
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 54px 0 24px 0;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+}
+
+.counter__number {
+  font-family: "PlusJakartaSans-Bold";
+  font-size: 28px;
+  line-height: 36px;
+  margin: 0 12px 0 0;
+  color: $black;
+}
+
+.counter__text {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 14px;
+  line-height: 20px;
+  vertical-align: bottom;
+  color: $light-periwinkle;
+}

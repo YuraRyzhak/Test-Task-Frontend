@@ -1,0 +1,49 @@
+.chat__search-contact {
+  width: calc(100% - 66px);
+  height: 40px;
+  border: 1px solid $light-steel-blue;
+  border-radius: 8px;
+  margin: 0 0 20px 0;
+  padding: 0 0 0 46px;
+}
+
+.dialogue__correspondence-message-input {
+  display: flex;
+  justify-content: space-between;
+  background-color: $white;
+  padding: 19px;
+  border-radius: 8px;
+  border: 1px solid $silver-sand;
+  margin: 0 20px 8px 0;
+}
+
+.dialogue__correspondence-message-input img {
+  width: 24px;
+  height: 24px;
+}
+
+#chat-input {
+  border: none;
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 0 0 12px;
+  width: 100%;
+}
+
+#smiley-dropdown {
+  display: none;
+  position: absolute;
+  background-color: $white;
+  box-shadow: 0px 2px 56px 0px $dark-gray;
+  margin: -65px 0 0 0;
+}
+
+.smiley {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+#chat-file-input {
+  display: none;
+}

@@ -1,0 +1,123 @@
+body {
+  background-color: $silver;
+}
+
+input {
+  outline: none;
+}
+
+.container {
+  max-width: 1051px;
+  margin: auto;
+  margin-bottom: 51px;
+}
+
+hr {
+  position: relative;
+  top: 85px;
+}
+
+.chat {
+  width: 100%;
+  height: 852px;
+  background-color: $white;
+  display: flex;
+  border-radius: 12px;
+}
+
+.dialogue {
+  max-width: 666px;
+  width: 100%;
+  margin: 20px 0 8px 20px;
+}
+
+.dialogue__date-block {
+  position: relative;
+}
+
+.dialogue__date-block hr {
+  position: absolute;
+  top: 49px;
+  width: calc(100% - 2px);
+}
+
+.dialogue__date-block div {
+  position: absolute;
+  top: 44px;
+  right: 50%;
+  background-color: $light-gray;
+  border-radius: 300px;
+  width: 58px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "PlusJakartaSans-SemiBold";
+  font-size: 14px;
+  line-height: 16px;
+  color: $battleship-grey;
+}
+
+.dialogue__correspondence-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 97%;
+}
+
+.dialogue__correspondence {
+  margin: 102px 20px 0 0;
+}
+
+.dialogue__correspondence-contact {
+  display: flex;
+}
+
+.dialogue__correspondence img {
+  width: 48px;
+  height: 48px;
+}
+
+.dialogue__correspondence-message {
+  max-width: 461px;
+  padding: 16px;
+  font-family: "PlusJakartaSans-Regular";
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.contact-message {
+  margin: 0 0 0 16px;
+  background-color: $light-gray;
+  border-radius: 20px;
+  border-top-left-radius: 0;
+}
+
+.user-message {
+  margin: 0 16px 0 0;
+  background-color: $gray-blue;
+  border-radius: 20px;
+  border-top-right-radius: 0;
+  color: $white;
+}
+
+.dialogue__correspondence-message-time {
+  font-family: "Roboto";
+  margin: 12px 0 0 16px;
+  color: $midnight-blue;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.dialogue__correspondence-user {
+  margin: 32px 0 0 0;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.user-time {
+  display: flex;
+  justify-content: end;
+  margin: 0 16px 0 0;
+}
+

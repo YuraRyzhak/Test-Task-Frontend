@@ -1,10 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-	</head>
-	<body></body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <p class="counter__number">3</p>
+        <p class="counter__text">total message</p>
+      </div>
+      <button class="button__new-message">
+        <img src="images/icon-new-message.png" alt="" />
+        <p>New Message</p>
+      </button>
+    </header>
+
+    <hr color="#E7E7E8" />
+    <section class="chat">
+      <div class="chat__sidebar">
+        <div class="chat__sidebar-container">
+          <span>
+            <img src="images/icon-search.svg" alt="" />
+          </span>
+          <input class="chat__search-contact" type="text" placeholder="Search" />
+          <div class="chat__contact">
+            <img src="images/image-cntact-1.svg" alt="" />
+            <div class="chat__block-information">
+              <div class="chat__information">
+                <p class="chat__contact-name">Philip Nelson</p>
+                <p class="chat__message-time">9:23 am</p>
+              </div>
+              <p class="chat__preview-message">
+                Hi Sofia. Could I ask you to help me with...
+              </p>
+            </div>
+          </div>
+          <div class="chat__contact chat__contact-active">
+            <img src="images/image-cntact-2.svg" alt="" />
+            <div class="chat__block-information">
+              <div class="chat__information">
+                <p class="chat__contact-name">Philip Nelson</p>
+                <p class="chat__message-time">9:23 am</p>
+              </div>
+              <p class="chat__preview-message">
+                Hi Sofia. Could I ask you to help me with...
+              </p>
+            </div>
+          </div>
+          <div class="chat__contact">
+            <img src="images/image-cntact-3.svg" alt="" />
+            <div class="chat__block-information">
+              <div class="chat__information">
+                <p class="chat__contact-name">Philip Nelson</p>
+                <p class="chat__message-time">9:23 am</p>
+              </div>
+              <p class="chat__preview-message">
+                Hi Sofia. Could I ask you to help me with...
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="chat__selected-contacts">
+          <div>
+            <button>
+              <img src="images/image-cntact-4.svg" alt="" />
+            </button>
+            <button>
+              <img src="images/image-cntact-3.svg" alt="" />
+            </button>
+            <button>
+              <img src="images/icon-add-selected-contact.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="dialogue">
+        <div class="dialogue__navigation">
+          <div class="dialogue__contact-information">
+            <img src="images/image-cntact-1.svg" alt="" />
+            <p>Philip Nelson</p>
+          </div>
+          <div class="dialogue__action">
+            <button>
+              <img class="dialogue__search" src="images/icon-search.svg" alt="" />
+            </button>
+            <div class="dialogue__dropdown">
+              <button id="button">
+                <img src="images/icon-three-dots.svg" alt="" />
+              </button>
+              <ul id="list">
+                <li>Disable notifications</li>
+                <li>Export chat history</li>
+                <li>Delete chat</li>
+                <li>Clear history</li>
+                <li class="danger-button">Delete</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="dialogue__date-block">
+          <hr color="#f6f6f6" />
+          <div>Jan 8</div>
+        </div>
+        <div class="dialogue__correspondence-container">
+          <div class="dialogue__correspondence">
+            <div class="dialogue__correspondence-contact">
+              <div>
+                <img src="./images/image-cntact-2.svg" alt="" />
+              </div>
+              <div>
+                <div class="dialogue__correspondence-message contact-message">
+                  <p>
+                    You can make a one-time payment to your landlord at any
+                    time. One-time payments are great for things like utility
+                    bills or late fees, or if you need to apply a credit to a
+                    payment.
+                  </p>
+                </div>
+                <div>
+                  <p class="dialogue__correspondence-message-time">9:23 am</p>
+                </div>
+              </div>
+            </div>
+            <div class="dialogue__correspondence-user">
+              <div>
+                <img src="./images/image-cntact-2.svg" alt="" />
+              </div>
+              <div>
+                <div class="dialogue__correspondence-message user-message">
+                  <p>
+                    You can make a one-time payment to your landlord at any
+                    time. One-time payments are great for things like utility
+                    bills or late fees, or if you need to apply a credit to a
+                    payment.
+                  </p>
+                </div>
+                <div class="user-time">
+                  <p class="dialogue__correspondence-message-time">9:23 am</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <form id="form" class="dialogue__correspondence-message-input">
+            <button id="smile-button"><img src="images/icon-smile.svg" alt=""></button>
+            <div id="smiley-dropdown">
+              <span class="smiley" data-smiley="😀">😀</span>
+              <span class="smiley" data-smiley="😁">😁</span>
+              <span class="smiley" data-smiley="😂">😂</span>
+              <span class="smiley" data-smiley="😃">😃</span>
+              <span class="smiley" data-smiley="😄">😄</span>
+            </div>
+            <input type="text" id="chat-input" placeholder="Write a message...">
+            <input type="file" id="chat-file-input">
+            <button id="file-button"><img src="images/icon-choosee-file.svg" alt=""></button>
+            <button id="send-button"><img src="images/icon-send-message.svg" alt=""></button>
+          </form>
+        </div>
+      </div>
+  </div>
+  </div>
+  </section>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
 </html>
